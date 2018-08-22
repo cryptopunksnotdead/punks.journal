@@ -52,9 +52,9 @@ and finally all-together lets setup the csv option hash:
 ``` ruby
 csv_opts = {
   skip_lines:  SKIP_REGEX,
-	skip_blanks: true,    ## note: skips lines with no whitespaces only!! (e.g. line with space is NOT blank!!)
+  skip_blanks: true,   ## note: skips lines with no whitespaces only e.g. line with space is NOT blank?!
   :converters => [:strip],
-	encoding: 'utf-8'
+  encoding: 'utf-8'
 }
 ```
 
