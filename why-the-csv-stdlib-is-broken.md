@@ -2,6 +2,31 @@
 
 What's broken (and wrong, wrong, wrong)
 with the CSV standard library? Let's count the ways.
+Let's kick off with an example:
+
+``` ruby
+require 'csv'
+require 'pp'
+
+begin
+  CSV.parse( %{1, "2"})
+rescue CSV::MalformedCSVError => ex
+  pp ex
+end
+# => #<CSV::MalformedCSVError: Illegal quoting in line 1.>
+
+begin
+CSV.parse( %{"3" , 4})
+rescue CSV::MalformedCSVError => ex
+  pp ex
+end
+# => #<CSV::MalformedCSVError: Unclosed quoted field on line 1.>
+
+pp CSV.parse( %{"","",,} )
+# => ["", "", nil, nil]
+```
+
+Is that what you expected?
 
 
 
