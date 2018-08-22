@@ -13,7 +13,7 @@ end
 # => #<CSV::MalformedCSVError: Illegal quoting in line 1.>
 
 begin
-	CSV.parse( %{"3" , 4})
+  CSV.parse( %{"3" , 4})
 rescue CSV::MalformedCSVError => ex
   pp ex
 end
