@@ -5,7 +5,7 @@ with the CSV standard library? Let's count the ways.
 
 
 
-## CSV Format - Strict Out-of-the-Box CSV Format - No Batteries Included
+## Strict CSV Format "Out-of-the-Box" - No Batteries Included (No Leading and Trailing Whitespace, No Blanks, No Comments, ...)
 
 Let's say you want to read in a CSV datafile
 with comments and skipping blank lines
@@ -145,7 +145,7 @@ in the CSV format. Using the "super-fast" `line.split(",")` kludge will NOT work
 
 
 
-## CSV Format - New Rule - (Unquoted) Empty Values Are `nil`
+## New CSV Format Rule - (Unquoted) Empty Values Are `nil`
 
 In the CSV format all values are by default strings. Remember: the CSV
 format is a text format.
