@@ -10,7 +10,7 @@ with the CSV standard library? Let's count the ways.
 Let's say you want to read in a CSV datafile
 with comments and skipping blank lines
 and stripping all leading and trailing whitespaces in values [^1]
-and with the utf8-encoding:
+and with the unicode utf8 character encoding:
 
 Example - `beer11.csv`:
 
