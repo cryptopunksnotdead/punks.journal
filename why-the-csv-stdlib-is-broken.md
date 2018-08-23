@@ -240,7 +240,7 @@ pp CsvReader.read( "beer11.csv" )
 
 No, it doesn't. The heart of the matter and the joke is that if you
 want to parse comma-separated values (csv) lines it is more
-complicated than using line.split(",") and you need a purpose-built
+complicated than using `line.split(",")` and you need a purpose-built
 parser for the (edge) cases and (special) escape rules, and, thus,
 you're advised to use a csv library.
 
