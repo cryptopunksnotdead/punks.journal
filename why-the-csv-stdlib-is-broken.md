@@ -287,7 +287,7 @@ def parse_field( io, sep: ',' )
 
 (Source: [`csvreader/lib/csvreader/parser.rb`](https://github.com/csv11/csvreader/blob/master/lib/csvreader/parser.rb))
 
-and so on and so forth [2]. See the difference?
+and so on and so forth. See the difference?
 
 
 
