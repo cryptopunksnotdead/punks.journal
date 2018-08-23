@@ -231,3 +231,74 @@ pp CsvReader.read( "beer11.csv" )
 #     ["Staatliches Hofbr\u00E4uhaus M\u00FCnchen", "M\u00FCnchen", "Hofbr\u00E4u Oktoberfestbier", "6.3%"]]
 ```
 
+
+
+## Questions and Answers (Q & A)
+
+> I disagree that it's broken. It's implementing the [strict] RFC [CSV format] 
+> and gives you the tools that allow you to be less strict.   
+
+No, it doesn't. The heart of the matter and the joke is that if you
+want to parse comma-separated values (csv) lines it is more
+complicated than using line.split(",") and you need a purpose-built
+parser for the (edge) cases and (special) escape rules, and, thus,
+you're advised to use a csv library.
+
+After using the csv std library I'm getting all these parse errors
+so I look at the source code and read-up what's going on and -
+surprise, surprise - the joke is on me:
+
+``` ruby
+parts = parse.split(@col_sep_split_separator, -1)
+```
+
+(Source: [`csv/lib/csv.rb`](https://github.com/ruby/csv/blob/master/lib/csv.rb#L1248))
+
+By definition it is impossible and unfixable unless you use your
+own purpose built parser - sorry, there's no "ingenious" hack for a
+supposed "faster" library and the excuse about parsing only very,
+very, very strict RFC is getting old. What do all the other csv
+libraries in the world do (see python, java, go, javascript, etc.)
+
+Anyways, here's how a parser looks like (it's not magic but
+definitely more work - e.g. instead of 10-20 lines you will have 100
+or 200 or more):
+
+```ruby
+def parse_field( io, sep: ',' )
+  value = ""
+  skip_spaces( io ) ## strip leading spaces
+  if (c=io.peek; c=="," || c==LF || c==CR || io.eof?) ## empty field
+    ## return value; do nothing
+  elsif io.peek == DOUBLE_QUOTE
+    puts "start double_quote field - peek >#{io.peek}< (#{io.peek.ord})"
+    io.getc ## eat-up double_quote
+    loop do
+       while (c=io.peek; !(c==DOUBLE_QUOTE || io.eof?))
+         value << io.getc ## eat-up everything unit quote (")
+       end
+      break if io.eof?
+      io.getc ## eat-up double_quote
+      if io.peek == DOUBLE_QUOTE ## doubled up quote?
+         value << io.getc ## add doube quote and continue!!!!
+      else
+      ....
+```
+
+(Source: [`csvreader/lib/csvreader/parser.rb`](https://github.com/csv11/csvreader/blob/master/lib/csvreader/parser.rb))
+
+and so on and so forth [2]. See the difference?
+
+
+
+> Did you try reporting to upstream to see about fixing it?
+
+Unfortunately, the csv library is an orphan abadoned by its original
+author as a 1000 line single-file code bomb and would need some love
+and care.
+
+There are so many other major flaws e.g. why not just return a
+hash if the csv file has a header. To conclude, the csv library might have been once
+"state-of-the-art" ten years ago - now in 2020 it's unfortunately a
+dead horse and cannot handle the (rich) diversity / dialects of csv
+formats.
