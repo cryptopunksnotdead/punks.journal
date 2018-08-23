@@ -312,4 +312,10 @@ Have you read it? :-) Let's start at the beginning (together):
 **This memo provides information for the internet community. It does
 not specify an internet standard of any kind.**
 
+or how about the classic "interoperability" rule printed on page 4:
+
+**Implementors should "be
+conservative in what you do, be liberal in what you accept from
+others" (RFC 793) when processing CSV files.**
+
 (Source: [ietf.org/rfc/rfc4180.txt](https://www.ietf.org/rfc/rfc4180.txt))
