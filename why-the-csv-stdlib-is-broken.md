@@ -302,3 +302,14 @@ hash if the csv file has a header. To conclude, the csv library might have been 
 "state-of-the-art" ten years ago - now in 2020 it's unfortunately a
 dead horse and cannot handle the (rich) diversity / dialects of csv
 formats.
+
+
+
+> Have you read the RFC 4180 [memo]? The quoting rules are in there.
+
+Have you read it? :-) Let's start at the beginning (together):
+
+**This memo provides information for the internet community. It does
+not specify an internet standard of any kind.**
+
+(Source: [ietf.org/rfc/rfc4180.txt](https://www.ietf.org/rfc/rfc4180.txt))
