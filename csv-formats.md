@@ -60,7 +60,7 @@ Edge cases:
 
 A: Tabs and newlines get escaped (unix-style) with backslash (`\n` or `\t`)
 and the mysql convention for nil / null is using a "custom" escape, that is,
-(`\N`). Note: The uppercase N.
+(`\N`). Note, the uppercase N in (`\N`).
 
 <!--
 Todo: check if mysql escapes by default tabs and newlines?
