@@ -2,7 +2,11 @@
 # Why the CSV standard library is broken, broken, broken (and how to fix it), Part II or The Wonders of CSV Formats / Dialects
 
 
-What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways. [Start with Part I in the series » ](why-the-csv-stdlib-is-broken.md)
+What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways. 
+
+**[Start with Part I in the series » ](why-the-csv-stdlib-is-broken.md)**
+
+
 
 
 
