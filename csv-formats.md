@@ -49,8 +49,8 @@ In practice that looks like:
 4→a string containing a ", quote and comma→102.20
 ```
 
-Note: Values are never enclosed in (double) quotes (`"`) and
-separated by tabs (`\t`).
+Note: Values are separated by tabs (`\t`)
+and NEVER enclosed in (double) quotes (`"`).
 
 Edge cases:
 - Q: How can you use tabs in your values?
