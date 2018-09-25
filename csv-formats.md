@@ -211,4 +211,4 @@ CSV standard library? Here be dragons. You're on your own again :-).
 Please post your questions or comments to the ruby-talk mailing list thread
 or in the reddit ruby discussion thread.
 
-Any other CSV format you want to see pre-configured and supported "out-of-the-box"?
+Any other CSV format you want to see pre-configured and supported "out-of-the-box"? Please tell.
