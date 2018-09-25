@@ -130,9 +130,7 @@ called TEXT and CSV.
 
 ### PostgreSQL TEXT
 
-Let's start with PostgreSQL TEXT.
-
-The PostgreSQL docu reads:
+Let's start with PostgreSQL TEXT. The PostgreSQL docu reads:
 
 > When the text format is used, the data read or written is a text file with one line per table row.
 > Columns in a row are separated by the delimiter character.
