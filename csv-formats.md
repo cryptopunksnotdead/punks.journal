@@ -208,7 +208,7 @@ CSV standard library? Here be dragons. You're on your own again :-).
 
 ## Questions? Comments?
 
-Please post your questions or comments to the ruby-talk mailing list thread
-or in the reddit ruby discussion thread.
+Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread
+or in the [reddit ruby discussion thread](https://www.reddit.com/r/ruby/comments/9iso8a/why_the_csv_standard_library_is_broken_and_how_to/).
 
 Any other CSV format you want to see pre-configured and supported "out-of-the-box"? Please tell.
