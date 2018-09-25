@@ -212,16 +212,16 @@ Everything works as expected :-). Example:
 ``` ruby
 require 'csvreader'
 
-pp CsvReader.parse_line( %{1, "2"} )
+pp Csv.parse_line( %{1, "2"} )
 # => ["1", "2"]
 
-pp CsvReader.parse_line( %{"3" ,4} )
+pp Csv.parse_line( %{"3" ,4} )
 # => ["3","4"]
 
-pp CsvReader.parse_line( %{"","",,} )
+pp Csv.parse_line( %{"","",,} )
 # => ["", "", "", ""]
 
-pp CsvReader.read( "beer11.csv" )
+pp Csv.read( "beer11.csv" )
 # => [["Brewery", "City", "Name", "Abv"],
 #     ["Andechser Klosterbrauerei", "Andechs", "Doppelbock Dunkel", "7%"],
 #     ["Augustiner Br\u00E4u M\u00FCnchen", "M\u00FCnchen", "Edelstoff", "5.6%"],
@@ -268,7 +268,7 @@ or 200 or more):
 def parse_field( io, sep: ',' )
   value = ""
   skip_spaces( io ) ## strip leading spaces
-  if (c=io.peek; c=="," || c==LF || c==CR || io.eof?) ## empty field
+  if (c=io.peek; c==sep || c==LF || c==CR || io.eof?) ## empty field
     ## return value; do nothing
   elsif io.peek == DOUBLE_QUOTE
     puts "start double_quote field - peek >#{io.peek}< (#{io.peek.ord})"
