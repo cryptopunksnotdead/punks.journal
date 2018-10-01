@@ -18,7 +18,7 @@ a,b,c
 1,2,3
 ```
 
-What do you except?
+What do you expect?
 
 ``` ruby
 pp CSV.read( 'data.csv' )
