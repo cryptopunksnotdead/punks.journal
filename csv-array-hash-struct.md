@@ -79,7 +79,7 @@ pp CsvHash.read( 'data.csv' )
 # => [{"a"=>"1", "b"=>"2", "c"=>"3"}]
 ```
 
-Bonus: Why not return a (typed) struct instead a (schema-less) hash?
+Bonus: Why not return a (typed) struct instead of a (schema-less) hash?
 
 Great you asked :-).
 Let's welcome `CsvRecord`.
