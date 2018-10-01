@@ -137,7 +137,7 @@ pp CsvRecord.read( 'data.csv' )
 
 
 
-## Parser vs Reader - Front-End vs Back-End
+## Reader vs Parser - Front-End vs Back-End
 
 What's broken (and wrong, wrong, wrong) with the CSV standard library?
 The CSV library is an all-in-one hairball with a
