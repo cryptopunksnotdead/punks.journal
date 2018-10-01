@@ -70,12 +70,13 @@ What about headers?
 The new `CsvHash.read` (note, the `Hash` in the name)
 always, always, always returns an array of hashes
 for the comma-separated values records. Period.
-No custom `CSV::Table` or custom `CSV::Row`. Thanks you!
+No custom `CSV::Table` or custom `CSV::Row`. Thank you!
 Example:
 
 ``` ruby
 pp CsvHash.read( 'data.csv' )
-[{"a"=>"1", "b"=>"2", "c"=>"3"}]
+
+# => [{"a"=>"1", "b"=>"2", "c"=>"3"}]
 ```
 
 Bonus: Why not return a (typed) struct instead a (schema-less) hash?
