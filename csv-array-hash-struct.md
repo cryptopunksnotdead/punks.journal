@@ -186,7 +186,7 @@ Csv.excel.read( 'data.csv' )
 # and so on
 ```
 
-Note: `Csv.myql`, for example, is a convenience shortcut for:
+Note: `Csv.mysql`, for example, is a convenience shortcut for:
 
 ``` ruby
 parser = CsvReader::ParserStrict.new( sep: "\t",
