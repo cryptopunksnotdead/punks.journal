@@ -36,7 +36,7 @@ a comma-separated values record once read in / parsed
 is a list of values.
 
 
-Now let's use a header. What do you except now?
+Now let's use a header. What do you expect now?
 
 ``` ruby
 pp CSV.read( 'data.csv', headers: true )
