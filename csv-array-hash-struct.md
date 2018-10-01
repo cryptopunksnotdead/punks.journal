@@ -202,7 +202,7 @@ mysql.read( 'data.csv' )
 
 Anyways, what's the point?
 The point is data is the new gold.
-And the CSV is the #1 and the world's most popular data format :-).
+And CSV is the #1 and the world's most popular data format :-).
 
 The csv standard library might have been once
 "state-of-the-art" ten years ago - now in 2020 it's unfortunately a
