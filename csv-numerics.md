@@ -142,8 +142,8 @@ all the edge case such as Not A Number (NaN) in
 > I disagree that it's broken. It's implementing the [strict] RFC [CSV format]
 > and gives you the tools that allow you to be less strict.   
 
-Anyone?  Show us how you handle reading of the numberics variant
-and Not a Number with the standard csv library?
+Anyone?  Show us how you handle the reading of the numerics variant
+and Not a Number (NaN) with the standard csv library?
 
 
 > Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
