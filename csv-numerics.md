@@ -60,7 +60,7 @@ pp records
 
 That's great again.
 Using type inference and data converters
-turns a comma-separated values record in a list of numbers.
+turns a comma-separated values record into a list of numbers.
 
 
 ## Numbers and Strings Together - How? Possible?
