@@ -305,7 +305,7 @@ formats.
 
 
 
-> Have you read the RFC 4180 [memo]? The quoting rules are in there.
+> Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
 
 Have you read it? :-) Let's start at the beginning (together):
 
