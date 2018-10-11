@@ -1,4 +1,4 @@
-# Why the CSV standard library is broken, broken, broken (and how to fix it), Part IV or Numerics or Auto-Magic Type Inference for Strings and Numbers
+# Why the CSV standard library is broken, broken, broken (and how to fix it), Part IV or Numerics a.k.a. Auto-Magic Type Inference for Strings and Numbers
 
 
 What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways.
