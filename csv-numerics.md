@@ -122,7 +122,7 @@ that get auto-converted to `Float::NAN`, that is, Not A Number (NaN).
 Example:
 
 ``` ruby
-records = Csv.numeric.parse( '1,2,NAN,#NA', nan: ['NAN', '#NA'] )
+records = Csv.numeric.parse( '1,2,NAN,#NAN', nan: ['NAN', '#NAN'] )
 pp records
 # => [[1.0, 2.0, NaN, NaN]]
 ```
