@@ -160,3 +160,11 @@ is alive and kicking.
 
 What's next for CSV? CSV <3 JSON and much more.
 Stay tuned for the next episode.
+
+
+
+
+## Questions? Comments?
+
+Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread
+or in the [reddit ruby discussion thread](https://www.reddit.com/r/ruby/comments/9kgu83/why_the_csv_standard_library_is_broken_and_how_to/).
