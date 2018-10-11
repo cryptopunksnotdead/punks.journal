@@ -36,7 +36,7 @@ a comma-separated values record once read in / parsed
 is always a list of string values. Period.
 
 
-## What about Numbers (instead of Strings)?
+## What about Numbers?
 
 You can use the converters keyword
 option to (auto-)convert strings to nulls, booleans, dates,
@@ -65,28 +65,30 @@ turns a comma-separated values record in a list of numbers.
 
 ## Numbers and Strings Together - How? Possible?
 
-Guess, what? There's a popular convention / variant / dialect for
-comma-separated values (CSV) records.
+Guess, what? There's a popular comma-separated values (CSV)
+convention / variant / dialect:
 
-Rule 1: Use "un-quoted" values for float numbers e.g. `1,2,3`
+Rule 1: Use "un-quoted" values for float numbers e.g. `1,2,3` or `1.0, 2.0, 3.0` etc.
 
-Rule 2: Use quoted values for "non-numeric" string e.g. `"4", "5", "6"`
+Rule 2: Use quoted values for "non-numeric" strings e.g. `"4", "5", "6"` or `"Hello, World!"` etc.
+
 
 
 Now - try to read this format with the standard CSV library in ruby.
 Anyone? Sorry, it's impossible - why? how?
 
-Oh no! Yes, - surprise, surprise, the
+Oh no! Yes, - surprise, surprise - the
 CSV standard library is broken, broken, broken again.
-The built-in or custom converters only get the value (and the field position)
-but NOT if the value was quoted or not.
+The built-in (or your own custom converters) only get the value (and the field position)
+but NOT if the value was quoted or un-quoted.
 
-Let's fix it. Use a purpose built-parser that
+Let's fix it. Use a purpose built-parser
 that includes support for numerics (like the Python standard library
 or panda's `read_csv` and many others).
 What about ruby :-)?
 
 Change
+
 ``` ruby
 require 'csv'
 ```
@@ -140,8 +142,8 @@ all the edge case such as Not A Number (NaN) in
 > I disagree that it's broken. It's implementing the [strict] RFC [CSV format]
 > and gives you the tools that allow you to be less strict.   
 
-Anyone?  Show us how you do reading of the numberics variant
-and Not a Number with the standard library?
+Anyone?  Show us how you handle reading of the numberics variant
+and Not a Number with the standard csv library?
 
 
 > Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
