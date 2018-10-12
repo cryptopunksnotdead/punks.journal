@@ -1,4 +1,4 @@
-**Update:** What started with this article - is now an almost endless :-) ongoing article series. Read all episodes (and stay tuned for more :-):
+**Update:** What started with this article - is now an almost endless :-) ongoing article series. Read all episodes (and stay tuned for more :-)):
 
 - **Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser** - You're here :-)  
 - **[Part II or The Wonders of CSV Formats / Dialects »](csv-formats.md)**
