@@ -1,3 +1,13 @@
+**Update** What started as a (single) article - is now an almost endless :-) ongoing article series. Read all episodes:
+
+- **Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser** (You're here :-))  
+- **[Part II or The Wonders of CSV Formats / Dialects »](csv-formats.md)**
+- **[Part III or Returning a CSV Record as an Array? Hash? Struct? Row? »](csv-array-hash-struct.md)**
+- **[Part IV or Numerics a.k.a. Auto-Magic Type Inference for Strings and Numbers](csv-numerics.md)**
+
+
+
+
 #  Why the CSV standard library is broken, broken, broken (and how to fix it)
 
 What's broken (and wrong, wrong, wrong)
