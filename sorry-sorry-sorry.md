@@ -100,6 +100,6 @@ put into the CSV library. We are all standing on the shoulders of giants.
  
 
 Now that the giants have left the building any volunteers on adopting the standard CSV library and making it great again? 
-Why not start with a custom-built parser that handles more edges cases 
+Why not start with a custom purpose-built parser that handles more edges cases 
 for escaping and quoting rules or more flexible rules / conventions for leading and trailing whitespaces
 and so on. Anyone? You might be giant.
