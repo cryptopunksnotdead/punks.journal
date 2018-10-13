@@ -6,6 +6,8 @@
 
 _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's count the ways:_
 
+
+- [Introduction - I Apologize - Sorry, Sorry, Sorry](sorry-sorry-sorry.md)
 - [Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser](why-the-csv-stdlib-is-broken.md)
 - [Part II or The Wonders of CSV Formats / Dialects](csv-formats.md)
 - [Part III or Returning a CSV Record as an Array? Hash? Struct? Row?](csv-array-hash-struct.md)
