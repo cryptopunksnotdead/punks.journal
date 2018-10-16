@@ -110,7 +110,7 @@ and so on. Anyone? You might be giant.
 
 ## Questions and Answers (Q & A)  -  Reactions
 
-> (★22 votes)[^1] If it's broken, fucking fix it.
+> (★22 votes)¹ If it's broken, fucking fix it.
 > Don't keep harping on about how broken it is and how you're going to save us all.
 > This CSV library better be fucking awesome as much shit talking 
 > and self promotion you have been doing. 
@@ -136,7 +136,7 @@ Just repeating it three times in case you missed it, see https://www.ietf.org/rf
 
 
 
-> (★1 vote) Maybe list the edge cases you have discovered yourself, you _____?
+> Maybe list the edge cases you have discovered yourself, you _____?
 
 Here are some edge cases to start off:
 - `1, "2",3`    # leading space before quote
@@ -153,14 +153,13 @@ Here are some edge cases to start off:
 For more, see the [Why the CSV standard library is broken](https://github.com/csv11/docs) article series :-).
 
 
-> (★1 vote) Maybe we should build a set of specs with these edge cases and let everyone chime, 
+> (★1 vote)¹ Maybe we should build a set of specs with these edge cases and let everyone chime, 
 > and then put it in a repo so that we can improve upon it.
 
 Maybe. See above. Anyone? You might be giant.
 
 
 
-
 ---
 
-[^1]: ★1 shows the community forum points (up/down votes)
+¹: ★22 or ★1 shows the community forum points (up/down votes)
