@@ -160,4 +160,7 @@ Maybe. See above. Anyone? You might be giant.
 
 
 
-[^1]: ★1 shows the reddit points (up/down votes)
+
+---
+
+[^1]: ★1 shows the community forum points (up/down votes)
