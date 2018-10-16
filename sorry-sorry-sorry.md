@@ -119,17 +119,19 @@ Now I'm feeling better. Thank you.
 
 Sometimes repeating helps to highlight the message. Example:
 
-This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community. 
-IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
-IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
-IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.
+This [Comma-Separated Values (CSV) RFC 4180 Memo] provides information for the internet community.
+
+- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
+- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
+- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.
 
 Just repeating it three times in case you missed it, see https://www.ietf.org/rfc/rfc4180.txt
 
 
-> Maybe list the edge-cases you have discovered yourself, you _____?
 
-Here are some edge-cases to start off:
+> Maybe list the edge cases you have discovered yourself, you _____?
+
+Here are some edge cases to start off:
 - `1, "2",3`    # leading space before quote
 - `1,"2" ,3`    # trailing space after quote
 - `1,2'3",4`    # "unquoted non-leading" quote in value
@@ -144,7 +146,7 @@ Here are some edge-cases to start off:
 For more, see the [Why the CSV standard library is broken](https://github.com/csv11/docs) article series :-).
 
 
-> Maybe we should build a set of specs with these edgecases and let everyone chime, 
+> Maybe we should build a set of specs with these edge cases and let everyone chime, 
 > and then put it in a repo so that we can improve upon it.
 
 Maybe yes. See above. Anyone? You might be giant.
