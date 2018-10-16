@@ -120,7 +120,7 @@ Now I'm feeling better. Thank you.
 
 > Why why why do do do you you you write write write like like like this this this?
 
-Sometimes repeating helps to highlight the message. Example from the 
+Sometimes repeating helps to highlight the message. Let's try as an example the 
 Comma-Separated Values (CSV) RFC 4180 Memo (see <https://www.ietf.org/rfc/rfc4180.txt>) 
 cited above: 
 
