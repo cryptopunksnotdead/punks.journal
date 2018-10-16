@@ -8,7 +8,7 @@ Don't get me wrong - the author or the authors of the standard CSV library
 deserve our hugs and thank yous for the great work and many hours (for sure many unpaid and volunteered)
 put into the CSV library. We are all standing on the shoulders of giants.
  
-Now it's 2019 and the standard CSV library is an unloved and uncared orphan that is no longer
+Now it's 2018 and the standard CSV library is an unloved and uncared orphan that is no longer
 "state-of-the-art" or the best it can be. At it's core is a `string#split` kludge:
 
 ``` ruby
@@ -103,3 +103,51 @@ Now that the giants have left the building any volunteers on adopting the standa
 Why not start with a custom purpose-built parser that handles more edges cases 
 for escaping and quoting rules or more flexible rules / conventions for leading and trailing whitespaces
 and so on. Anyone? You might be giant.
+
+
+
+
+
+## Questions and Answers (Q & A)  -  Rectactions 
+
+> If it's broken, fucking fix it, don't keep harping on about how broken it is and how you're going to save us all.
+
+Now I'm feeling better. Thank you.
+
+
+> Why why why do do do you you you write write write like like like this this this?
+
+Sometimes repeating helps to highlight the message. Example:
+
+This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community. 
+IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
+IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
+IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.
+
+Just repeating it three times in case you missed it, see https://www.ietf.org/rfc/rfc4180.txt
+
+
+> Maybe list the edge-cases you have discovered yourself, you _____?
+
+Here are some edge-cases to start off:
+- `1, "2",3`    # leading space before quote
+- `1,"2" ,3`    # trailing space after quote
+- `1,2'3",4`    # "unquoted non-leading" quote in value
+- `1,"\"2\"",3`  # "unix-style" escaped quote in quote
+- `1,\"2\",3`    # "unix-style quote in value
+- `1,"1",2,"2"`  # treat un-quoted and quoted numbers different
+- `a,"a",b,"b"`   # treat un-quoted and quoted strings different
+- `a,null,"null`  # treat un-quoted and quoted null values different
+- `1,NaN,"NaN"`   # treat un-quoted and quoted not-a-number (NaN) values different
+- and so on and so forth
+
+For more, see the [Why the CSV standard library is broken](https://github.com/csv11/docs) article series :-).
+
+
+> Maybe we should build a set of specs with these edgecases and let everyone chime, 
+> and then put it in a repo so that we can improve upon it.
+
+Maybe yes. See above. Anyone? You might be giant.
+
+
+
