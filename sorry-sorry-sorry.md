@@ -108,19 +108,26 @@ and so on. Anyone? You might be giant.
 
 
 
-## Questions and Answers (Q & A)  -  Rectactions 
+## Questions and Answers (Q & A)  -  Reactions
 
-> If it's broken, fucking fix it, don't keep harping on about how broken it is and how you're going to save us all.
+> If it's broken, fucking fix it.
+> Don't keep harping on about how broken it is and how you're going to save us all.
+> This CSV library better be fucking awesome as much shit talking 
+> and self promotion you have been doing. 
 
 Now I'm feeling better. Thank you.
 
 
 > Why why why do do do you you you write write write like like like this this this?
 
-Sometimes repeating helps to highlight the message. Example:
+Sometimes repeating helps to highlight the message. Example: 
 
-This [Comma-Separated Values (CSV) RFC 4180 Memo] provides information for the internet community.
+This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community.
+It does not specify an internet standard of any kind.
 
+vs
+
+This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community.
 - IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
 - IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
 - IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.
@@ -149,7 +156,7 @@ For more, see the [Why the CSV standard library is broken](https://github.com/cs
 > Maybe we should build a set of specs with these edge cases and let everyone chime, 
 > and then put it in a repo so that we can improve upon it.
 
-Maybe yes. See above. Anyone? You might be giant.
+Maybe. See above. Anyone? You might be giant.
 
 
 
