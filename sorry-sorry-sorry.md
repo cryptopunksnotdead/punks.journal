@@ -136,7 +136,7 @@ This memo provides information for the internet community.
 
 
 
-> Maybe list the edge cases you have discovered yourself, you _____?
+> Maybe list the edge cases you have discovered yourself [that the standard CSV library cannot read/parse], you _____?
 
 Here are some edge cases to start off:
 - `1, "2",3`    # leading space before quote
