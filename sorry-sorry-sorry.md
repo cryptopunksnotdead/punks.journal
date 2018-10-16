@@ -84,7 +84,7 @@ assumption in the library that the world needs to change all files to get read w
 library is a kind of hybris.
 
 > CSV maintains a pretty strict definition of CSV taken directly from
-> the RFC <http://www.ietf.org/rfc/rfc4180.txt>.  I relax the rules in only one
+> the RFC (<http://www.ietf.org/rfc/rfc4180.txt>).  I relax the rules in only one
 > place and that is to make using this library easier.  CSV will parse all valid
 > CSV.
 >
