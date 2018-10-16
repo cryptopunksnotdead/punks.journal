@@ -1,6 +1,6 @@
 **Update:** What started with this article - is now an almost endless :-) ongoing article series. Read all episodes (and stay tuned for more :-)):
 
-- **[Introduction - I Apologize - Sorry, Sorry, Sorry](sorry-sorry-sorry.md)**
+- **[Introduction - I Apologize - Sorry, Sorry, Sorry - Why the standard CSV library author deserves our hugs and thank yous and why new giants are wanted](sorry-sorry-sorry.md)**
 - **Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser** - You're here :-)  
 - **[Part II or The Wonders of CSV Formats / Dialects »](csv-formats.md)**
 - **[Part III or Returning a CSV Record as an Array? Hash? Struct? Row? »](csv-array-hash-struct.md)**
