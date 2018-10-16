@@ -110,7 +110,7 @@ and so on. Anyone? You might be giant.
 
 ## Questions and Answers (Q & A)  -  Reactions
 
-> (★22 votes) If it's broken, fucking fix it.
+> (★22 votes)[^1] If it's broken, fucking fix it.
 > Don't keep harping on about how broken it is and how you're going to save us all.
 > This CSV library better be fucking awesome as much shit talking 
 > and self promotion you have been doing. 
@@ -160,6 +160,4 @@ Maybe. See above. Anyone? You might be giant.
 
 
 
----
-
-Note:  ★1 shows the reddit points (up/down votes)
+[^1]: ★1 shows the reddit points (up/down votes)
