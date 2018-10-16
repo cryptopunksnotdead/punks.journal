@@ -84,7 +84,7 @@ assumption in the library that the world needs to change all files to get read w
 library is a kind of hybris.
 
 > CSV maintains a pretty strict definition of CSV taken directly from
-> {the RFC}[http://www.ietf.org/rfc/rfc4180.txt].  I relax the rules in only one
+> the RFC <http://www.ietf.org/rfc/rfc4180.txt>.  I relax the rules in only one
 > place and that is to make using this library easier.  CSV will parse all valid
 > CSV.
 >
@@ -120,19 +120,19 @@ Now I'm feeling better. Thank you.
 
 > Why why why do do do you you you write write write like like like this this this?
 
-Sometimes repeating helps to highlight the message. Example: 
+Sometimes repeating helps to highlight the message. Example from the 
+Comma-Separated Values (CSV) RFC 4180 Memo (see <https://www.ietf.org/rfc/rfc4180.txt>) 
+cited above: 
 
-This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community.
+This memo provides information for the internet community.
 It does not specify an internet standard of any kind.
 
 vs
 
-This [Comma-Separated Values (CSV) RFC 4180] memo provides information for the internet community.
-- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
-- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND. 
-- IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.
-
-Just repeating it three times in case you missed it, see https://www.ietf.org/rfc/rfc4180.txt
+This memo provides information for the internet community.
+- **IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.** 
+- **IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.** 
+- **IT DOES NOT SPECIFY AN INTERNET STANDARD OF ANY KIND.**
 
 
 
@@ -160,6 +160,8 @@ Maybe. See above. Anyone? You might be giant.
 
 
 
----
 
-¹: ★22 or ★1 shows the community forum points (up/down votes)
+---
+Notes:
+
+¹: shows the community forum points (up/down votes) e.g. ★22 votes or ★1 vote
