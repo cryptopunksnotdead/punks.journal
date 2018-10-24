@@ -45,8 +45,9 @@ returns
 [["1", "Hamlet says, \"Seems,\" madam! Nay it is; I know not \"seems.\""]]
 ```
 
-That's great. It works. The commas and the quotes get escaped.
-Now lets try / change to "unix-style" escaping (e.g. `\"` for `""`):
+That's great. It works. The commas and quotes get escaped.
+Now lets try the "unix-style" escaping with backslashes (e.g. `\"` for `""`)
+used by PostgreSQL, MySQL and others (when exporting database tables in CSV, for example):
 
 ```
 1,"Hamlet says, \"Seems,\" madam! Nay it is; I know not \"seems.\""
