@@ -68,7 +68,7 @@ That's a good excuse. Thank you.
 > Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
  
 
-Let's add a space before the quote. Can you see the space?
+Okkie. Let's add a space before the quote. Can you see the space?
 Can you see the difference?
 
 ```
