@@ -109,8 +109,7 @@ Of course, not. That wouldn't make the programmers happy, happy, happy, would it
 Jan Lelis on Idiosyncratic Ruby
 documents in [210 Ways to Rome](https://idiosyncratic-ruby.com/15-207-ways-to-rome.html)
 not one, not two, not three,
-not four, not ten, not twenty, not one hundred but
-- surprise, surprise -
+not four, not ten, not twenty, not one hundred but - surprise, surprise -
 yes, more than two hundred ways!
 That makes programmers happy, happy, happy.
 
