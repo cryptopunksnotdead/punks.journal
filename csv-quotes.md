@@ -87,7 +87,7 @@ And that's just a start. Try adding a space after the quote.
 # => #<CSV::MalformedCSVError: Unclosed quoted field on line 1.>
 ```
 
-SAD. SAD. SAD. Another crash. BAD. BAD. BAD. For fun try:
+SAD. SAD. SAD. Another crash. More fun. Let's try:
 
 ```
 Los Angeles,   34°03'N,    118°15'W
@@ -100,9 +100,8 @@ Welcome to the stray quote hell.
 
 
 How to fix the strict - dare I say - idiotic and simplistic quoting rules? Any ideas?
-Let's look at ruby :-).
 
-Trivia Quiz. How many ways to quote a string in ruby? One and only one way and
+Let's look at ruby :-). Trivia Quiz. How many ways to quote a string in ruby? One and only one way and
 every single leading and trailing whitespace counts (and will break your code).
 Of course, not. That wouldn't make the programmers happy, happy, happy, would it?
 
