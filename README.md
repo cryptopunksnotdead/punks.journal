@@ -12,5 +12,4 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 - [Part II or The Wonders of CSV Formats / Dialects](csv-formats.md)
 - [Part III or Returning a CSV Record as an Array? Hash? Struct? Row?](csv-array-hash-struct.md)
 - [Part IV or Numerics a.k.a. Auto-Magic Type Inference for Strings and Numbers](csv-numerics.md)
-
-
+- [Part V or Escaping the Stray Quote Error Hell - Do You Want Single, Double, or French Quotes With That Comma?](csv-quotes.md)
