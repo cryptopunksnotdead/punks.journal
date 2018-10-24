@@ -18,16 +18,22 @@ Start with the (complete) series:
 Remember the rule no. 3 that
 when you want to use a comma in your value
 you MUST put your value in (double) quotes.
-And rule no. 4 that when you to use a quote in your quote
+And rule no. 4 that when you want to use a quote in your quote
 you MUST double the (double) quote.
+Let's turn Shakespeare's Hamlet quote:
 
-Let's read `shakespeare.csv`:
+```
+Hamlet says, "Seems," madam! Nay it is; I know not "seems."
+```
+
+into 
 
 ```
 1,"Hamlet says, ""Seems,"" madam! Nay it is; I know not ""seems."""
 ```
 
-What do you expect?
+
+Let's read `shakespeare.csv`. What do you expect?
 
 ``` ruby
 pp CSV.read( 'shakespeare.csv' )
