@@ -62,9 +62,11 @@ Why?
 > I disagree that it's broken. It's implementing the [strict] RFC [CSV format]
 > and gives you the tools that allow you to be less strict.
 
-Oh, I see. It's not a "standard", that is, it's not written in the one page CSV Request for Comments (RFC) memo. Ha. Ha. Ha. 
+Oh, I see. It's not in the "standard", that is, it's not written in the one page CSV Request for Comments (RFC) memo. Ha. Ha. Ha. 
 That's a good excuse. Thank you.
 
+> Have you read the [strict] RFC 4180 [CSV format memo]? The quoting rules are in there.
+ 
 
 Let's add a space before the quote. Can you see the space?
 Can you see the difference?
