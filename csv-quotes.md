@@ -62,7 +62,8 @@ Why?
 > I disagree that it's broken. It's implementing the [strict] RFC [CSV format]
 > and gives you the tools that allow you to be less strict.
 
-It's not a "standard", that is, it's not written in the one page CSV Request for Comments (RFC) memo. Ha. Ha. Ha. That's a good excuse. Thank you.
+Oh, I see. It's not a "standard", that is, it's not written in the one page CSV Request for Comments (RFC) memo. Ha. Ha. Ha. 
+That's a good excuse. Thank you.
 
 
 Let's add a space before the quote. Can you see the space?
