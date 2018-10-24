@@ -5,7 +5,7 @@ What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's cou
 
 Start with the (complete) series:
 - **[Introduction - I Apologize - Sorry, Sorry, Sorry - Why the standard CSV library author deserves our hugs and thank yous and why new giants are wanted »](sorry-sorry-sorry.md)**
-- **Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser**
+- **[Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser »](why-the-csv-stdlib-is-broken.md)**
 - **[Part II or The Wonders of CSV Formats / Dialects »](csv-formats.md)**
 - **[Part III or Returning a CSV Record as an Array? Hash? Struct? Row? »](csv-array-hash-struct.md)**
 - **[Part IV or Numerics a.k.a. Auto-Magic Type Inference for Strings and Numbers »](csv-numerics.md)**
@@ -18,11 +18,10 @@ Start with the (complete) series:
 Remember the rule no. 3 that
 when you want to use a comma in your value
 you MUST put your value in (double) quotes.
-
 And rule no. 4 that when you to use a quote in your quote
 you MUST double the (double) quote.
 
-Let's read `data.csv`:
+Let's read `shakespeare.csv`:
 
 ```
 1,"Hamlet says, ""Seems,"" madam! Nay it is; I know not ""seems."""
@@ -31,7 +30,7 @@ Let's read `data.csv`:
 What do you expect?
 
 ``` ruby
-pp CSV.read( 'data.csv' )
+pp CSV.read( 'shakespeare.csv' )
 ```
 
 returns
