@@ -1,4 +1,4 @@
-# Why the CSV standard library is broken, broken, broken (and how to fix it), Part V or Escaping the Stray Quote Error Hell - Do You Want Single, Double, or French Quotes With That Comma?
+# Why the CSV standard library is broken (and how to fix it), Part V or Escaping the Stray Quote Error Hell - Do You Want Single, Double, or French Quotes With That Comma?
 
 What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways.
 
