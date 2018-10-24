@@ -153,7 +153,7 @@ How are you feeling now?
 
 
 
-Bonus. Let's fix un-quoted "stray" hell with a new rule. Anyone?
+Bonus. Let's fix un-quoted "stray" quote hell with a new rule. Anyone?
 
 ```
 Los Angeles,   34°03'N,    118°15'W
@@ -161,7 +161,7 @@ New York City, 40°42'46"N, 74°00'21"W
 Paris,         48°51'24"N, 2°21'03"E
 ```
 
-NEW! Rule no 5 -
+NEW! Rule no. 5 -
 A quote only "kicks-in" if it's the first (non-whitespace) character of the value
 (otherwise it's just a "vanilla" literal character) e.g. `48°51'24"N`
 needs no quote :-).  No more "stray" quote errors / exceptions.
@@ -174,5 +174,5 @@ Believe it or not? CSV
 the world's #1 and most popular data format
 is alive and kicking.
 
-What's next for CSV? CSV <3 JSON and much more.
+What's next for CSV? [CSV <3 JSON](https://github.com/csvspecs/csv-json) and much more.
 Stay tuned for the next episode.
