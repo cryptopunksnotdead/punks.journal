@@ -178,3 +178,10 @@ is alive and kicking.
 
 What's next for CSV? [CSV <3 JSON](https://github.com/csvspecs/csv-json) and much more.
 Stay tuned for the next episode.
+
+
+
+
+## Questions? Comments?
+
+Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread.
