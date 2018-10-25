@@ -10,7 +10,7 @@ Three ways to read comma-separated values:
 - Use a Parser :-).
 
 
-google csv regex 
+google [csv regex pattern](https://google.com/search?q=csv+regex+pattern)
 
 
 
