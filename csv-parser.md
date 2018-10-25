@@ -14,15 +14,57 @@ google csv regex
 
 
 
-StackOverflow
+### StackOverflow
+
+Source: https://stackoverflow.com/questions/18144431/regex-to-split-a-csv
+
+Q: Regex to split a CSV?
+
+
+Comments:
+
+- What about using a proper parser ? 
+- Aside from an exercise in curiosity, what made you think of using regex?
+- "I've not been able to find a a regex that works 100%" 
+  That's mainly because this is a job for a CSV parser, and you should use one.
+- Regular expressions are not well-suited to solve this kind of problems, a simple parser will work much better.
+  And of course using an existing parser is the easier than writing your own.
+
+
+<!-- break -->
+
+
+I'm using this
+Regex `/(?<=^|,)(\"(?:[^"]+|"")*\"|[^,]*)(?:$|,)/g`, 
+it works with coma separator and double quote escaping. Normally that's should solved your problem.
+
+
+<!-- break -->
+
+This Regex `(?:^|,)(?=[^"]|(")?)"?((?(1)[^"]*|[^,"]*))"?(?=,|$)`
+expression will:
+
+- divide your sample text on the comma delimits
+- will process empty values
+- will ignore double quoted commas, providing double quotes are not nested
+- trims the delimiting comma from the returned value
+- trims surrounding quotes from the returned value
+
+Comments:
+
+- Wonderful! It does, however, fail to parse lines like `,,5` correctly - 
+  the first empty field is missing. Not sure how to fix this, though. :-( And it is broken on `a,",",a`.
+- I don't think this work with escaped quotes `abc,"hello \\"test ", 123`.
+- Skips the first field in `"abc""def",ghi`.
 
 
 
 
 
+### Software Engineering StackExchange
 
 
-Software Engineering StackExchange
+Source: https://softwareengineering.stackexchange.com/questions/166454/can-the-csv-format-be-defined-by-a-regex
 
 Q: Can the csv format be defined by a regex?
 
@@ -84,9 +126,6 @@ $                                   # Anchor to end of string.
 > runs into these things, and then you ram up against both the efficiency problems and complexity problems of a massive regex.
 > Have you looked at the node-csv library? It seems to validate this theory as well.
 > Every non trivial implementation uses a parser internally. 
-
-
-Source: https://softwareengineering.stackexchange.com/questions/166454/can-the-csv-format-be-defined-by-a-regex
 
 
 
