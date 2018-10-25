@@ -68,19 +68,19 @@ Source: https://softwareengineering.stackexchange.com/questions/166454/can-the-c
 
 Q: Can the csv format be defined by a regex?
 
-> A colleague and I have recently argued over whether a pure regex is capable of fully encapsulating the csv format, 
-> such that it is capable of parsing all files with any given escape char, quote char, and separator char.
->
-> The regex need not be capable of changing these chars after creation, but it must not fail on any other edge case.
->
-> I have argued that this is impossible. 
+A colleague and I have recently argued over whether a pure regex is capable of fully encapsulating the csv format, 
+such that it is capable of parsing all files with any given escape char, quote char, and separator char.
+
+The regex need not be capable of changing these chars after creation, but it must not fail on any other edge case.
+
+I have argued that this is impossible. 
 
 
 
-> A: For example here's the most comprehensive regular expression matching string I've found:
->
-> Regular Expressions work as a NDFSM (Non-Deterministic Finite State Machine) 
-> that wastes a lot of time backtracking once you start adding edge cases like escape chars.
+A: For example here's the most comprehensive regular expression matching string I've found:
+
+Regular Expressions work as a NDFSM (Non-Deterministic Finite State Machine) 
+that wastes a lot of time backtracking once you start adding edge cases like escape chars.
 
 
 ```
@@ -108,7 +108,7 @@ $                                   # Anchor to end of string.
 """
 ```
 
-> It's becomes a nightmare once the common edge-cases are introduced like...
+It's becomes a nightmare once the common edge-cases are introduced like...
 
 ```
 "such as ""escaped""","data"
@@ -120,12 +120,12 @@ $                                   # Anchor to end of string.
                                 // <- trailing newline, may or may not be included
 ```
 
-> Comment:
->
-> Yup, that's been my experience as well. Any attempt to fully encapsulate more than a very simple CSV pattern
-> runs into these things, and then you ram up against both the efficiency problems and complexity problems of a massive regex.
-> Have you looked at the node-csv library? It seems to validate this theory as well.
-> Every non trivial implementation uses a parser internally. 
+Comment:
+
+Yup, that's been my experience as well. Any attempt to fully encapsulate more than a very simple CSV pattern
+runs into these things, and then you ram up against both the efficiency problems and complexity problems of a massive regex.
+Have you looked at the node-csv library? It seems to validate this theory as well.
+Every non trivial implementation uses a parser internally. 
 
 
 
