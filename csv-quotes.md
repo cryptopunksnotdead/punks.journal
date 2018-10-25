@@ -89,7 +89,7 @@ And that's just a start. Try adding a space after the quote.
 # => #<CSV::MalformedCSVError: Unclosed quoted field on line 1.>
 ```
 
-SAD. SAD. SAD. Another crash. More fun. Let's try:
+SAD. SAD. SAD. Another crash. For more fun let's try:
 
 ```
 Los Angeles,   34°03'N,    118°15'W
