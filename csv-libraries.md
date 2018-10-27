@@ -143,7 +143,7 @@ Ruby's CSV library's API is pretty old, and it's processing of CSV-files returni
 As the existing CSV libraries didn't fit my needs, I was writing my own CSV processing - specifically for use in connection with Rails ORMs like Mongoid, MongoMapper or ActiveRecord. In those ORMs you can easily pass a hash with attribute/value pairs to the create() method. The lower-level Mongo driver and Moped also accept larger arrays of such hashes to create a larger amount of records quickly with just one call.
 
 
-## Fix: Fast, Faster, Fastest
+## Fix: Fast, Faster, Fasterer, Fastest
 
 The CSV standard library was born as fastercsv.
 The claim was that the new fastercsv library is faster than the old CSV standard library.
