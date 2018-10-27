@@ -207,6 +207,6 @@ CSV standard library? Here be dragons. You're on your own again :-).
 
 ## Request for Comments (RFC)
 
-Please post ycomments to the [ruby-talk mailing list](https://rubytalk.org) thread. Thanks!
+Please post your comments to the [ruby-talk mailing list](https://rubytalk.org) thread. Thanks!
 
 Any other CSV format you want to see pre-configured and supported "out-of-the-box"? Please tell.
