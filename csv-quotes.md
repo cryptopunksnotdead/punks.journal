@@ -182,6 +182,6 @@ Stay tuned for the next episode.
 
 
 
-## Questions? Comments?
+## Request for Comments (RFC)
 
-Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread.
+Please post your comments to the [ruby-talk mailing list](https://rubytalk.org) thread. Thanks!
