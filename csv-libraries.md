@@ -40,11 +40,10 @@ Aside:  Find out more ["Why the CSV RFC 4180 "Strict" Memo Is Dangerous?"](https
 in the Awesome CSV page or just read on :-).
 
 
-Or how about a quote right from the CSV std library comments?
+Or how about a quote right from the CSV standard library comments?
 
 > CSV maintains a pretty strict definition of CSV taken directly from
-> the RFC (<http://www.ietf.org/rfc/rfc4180.txt>).
-> [...] CSV will parse all valid CSV.
+> the RFC [4180]. [...] CSV will parse all valid CSV.
 >
 > (Source: [`ruby/csv.rb#L72`](https://github.com/ruby/csv/blob/master/lib/csv.rb#L72))
 
