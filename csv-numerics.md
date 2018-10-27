@@ -164,8 +164,7 @@ What's next for CSV? CSV <3 JSON and much more.
 Stay tuned for the next episode.
 
 
+## Request for Comments (RFC)
 
+Please post your comments to the [ruby-talk mailing list](https://rubytalk.org) thread. Thanks!
 
-## Questions? Comments?
-
-Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread.
