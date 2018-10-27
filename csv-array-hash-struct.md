@@ -220,8 +220,6 @@ That's how it all started.
 What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways.
 
 
+## Request for Comments (RFC)
 
-## Questions? Comments?
-
-Please post your questions or comments to the [ruby-talk mailing list](https://rubytalk.org) thread
-or in the [reddit ruby discussion thread](https://www.reddit.com/r/ruby/comments/9kgu83/why_the_csv_standard_library_is_broken_and_how_to/).
+Please post your comments to the [ruby-talk mailing list](https://rubytalk.org) thread. Thanks!
