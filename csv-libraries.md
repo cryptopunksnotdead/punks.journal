@@ -27,7 +27,7 @@ What CSV library alternatives are out there in
 the wild and what are these upstarts trying to fix (or make better or different)?
 
 
-## Fix: Tolerant, liberal, hippie flower power ("Live and let live") vs Conservative,  strict, draconian CSV RFC 4180 diktat ("One and only one")
+## Fix #1: Tolerant, liberal, hippie flower power ("Live and let live") vs Conservative,  strict, draconian CSV RFC 4180 diktat ("One and only one")
 
 
 The classic commentary from a true "there can only be one (simplistic) CSV format"
@@ -37,10 +37,10 @@ believer:
 
 
 Aside:  Find out more ["Why the CSV RFC 4180 "Strict" Memo Is Dangerous?"](https://github.com/csvspecs/awesome-csv#why-the-csv-rfc-4180-strict-memo-is-dangerous)
-in the Awesome CSV page or just read on :-).
+in the Awesome CSV page or just read on.
 
 
-Or how about a quote right from the CSV standard library comments?
+Or how about a quote right from the CSV standard library comments:
 
 > CSV maintains a pretty strict definition of CSV taken directly from
 > the RFC [4180]. [...] CSV will parse all valid CSV.
@@ -128,7 +128,7 @@ This gem seeks to make this process less terrible by providing a way to easily s
 
 
 
-## Fix: Use a "Plain Old" Hash and NOT `CSV::Table`, `CSV::Row`
+## Fix #2: Use a "Plain Old" Hash and NOT `CSV::Table`, `CSV::Row`
 
 ### Alternative - Smarter CSV
 
@@ -143,7 +143,8 @@ Ruby's CSV library's API is pretty old, and it's processing of CSV-files returni
 As the existing CSV libraries didn't fit my needs, I was writing my own CSV processing - specifically for use in connection with Rails ORMs like Mongoid, MongoMapper or ActiveRecord. In those ORMs you can easily pass a hash with attribute/value pairs to the create() method. The lower-level Mongo driver and Moped also accept larger arrays of such hashes to create a larger amount of records quickly with just one call.
 
 
-## Fix: Fast, Faster, Fasterer, Fastest
+
+## Fix #3: Fast, Faster, Fasterer, Fastest
 
 The CSV standard library was born as fastercsv.
 The claim was that the new fastercsv library is faster than the old CSV standard library.
