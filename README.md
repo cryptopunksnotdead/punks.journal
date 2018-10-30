@@ -7,10 +7,10 @@
 _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's count the ways:_
 
 
-Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank your for your code.
-You're a genius. You're a beautiful.
-Please, please, please - these articles are NOT about you.
-It's about the code and how to fix it.
+> Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank your for your code.
+> You're a genius. You're a beautiful.
+> Please, please, please - these articles are NOT about you.
+> It's about the code and how to fix it.
 
 
 - [Introduction - I Apologize - Sorry, Sorry, Sorry - Why the standard CSV library author deserves our hugs and thank yous and why new giants are wanted »](sorry-sorry-sorry.md)
