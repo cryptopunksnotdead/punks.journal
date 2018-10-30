@@ -4,10 +4,9 @@
 
 ## Article Series - Why the CSV standard library is broken (and how to fix it)
 
-### Introduction
 
 <details>
-  <summary>Introduction</summary>
+  <summary>### Introduction</summary>
 
 Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank you for your code.
 You're a genius. You're beautiful. [We stand on your shoulders. You're a giant.¹](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
