@@ -3,14 +3,10 @@
 
 ## Article Series - Why the CSV standard library is broken (and how to fix it)
 
-_What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's count the ways:_
-
-
-> Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank you for your code.
-> You're a genius. You're beautiful. [We stand on your shoulders. You're a giant.¹](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
-> Please, please, please - these articles are NOT about you.
-> It's about the code and how to fix it.
-
+Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank you for your code.
+You're a genius. You're beautiful. [We stand on your shoulders. You're a giant.¹](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
+Please, please, please - these articles are NOT about you.
+It's about the code and how to fix it.
 
 ¹: stand on someone's shoulders - to make discoveries, insights, or progress due to the discoveries or previous work of those who have come before.
 
@@ -19,6 +15,10 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 > "Criticism is something we can avoid easily by saying nothing, doing nothing, and being nothing."
 >
 > --  Aristotle
+
+
+
+_What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's count the ways:_
 
 - [Part I or A (Simplistic) String#split Kludge vs A Purpose Built CSV Parser](why-the-csv-stdlib-is-broken.md)
 - [Part II or The Wonders of CSV Formats / Dialects](csv-formats.md)
