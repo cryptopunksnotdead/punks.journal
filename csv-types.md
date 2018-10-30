@@ -124,7 +124,7 @@ end # class CSV
 
 
 Guess what?
-The CSV standard library loop over every value
+The CSV standard library loops over every value
 in every record with all the converters in the pipeline!
 Let's say you have a string value "Hello".
 
