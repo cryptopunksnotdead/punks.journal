@@ -4,9 +4,10 @@
 
 ## Article Series - Why the CSV standard library is broken (and how to fix it)
 
+### Introduction
 
 <details>
-  <summary><h3>Introduction</h3></summary>
+  <summary>Text</summary>
 
 <!-- break -->
 
