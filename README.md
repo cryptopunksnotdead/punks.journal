@@ -7,7 +7,7 @@
 ### Introduction
 
 <details>
-  <summary>Text</summary>
+  <summary>Show/Hide Text</summary>
 
 <!-- break -->
 
