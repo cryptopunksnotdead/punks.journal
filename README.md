@@ -8,7 +8,7 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 
 
 > Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank you for your code.
-> You're a genius. You're a beautiful.
+> You're a genius. You're beautiful.
 > Please, please, please - these articles are NOT about you.
 > It's about the code and how to fix it.
 
