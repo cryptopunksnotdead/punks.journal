@@ -7,7 +7,7 @@
 ### Introduction
 
 <details>
-  <summary>Read more</summary>
+  <summary>Introduction</summary>
 
 Reminder:  Dear [James Edward Gray II](https://twitter.com/JEG2), We love you. We thank you for your code.
 You're a genius. You're beautiful. [We stand on your shoulders. You're a giant.¹](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants)
@@ -41,7 +41,12 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 - [**Part V or Escaping the Stray Quote Error Hell - Do You Want Single, Double, or French Quotes With That Comma?**](csv-quotes.md)
 - [**Part VI or Fixes in Alternative CSV Libraries or Evolve or Die or Fast, Faster, Fasterer, Fastest**](csv-libraries.md)
 
+
+<!--
+
 > "He has a right to criticize, who has a heart to help."
 >
 > -- Abraham Lincoln
 
+
+-->
