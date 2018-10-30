@@ -153,7 +153,7 @@ So how can we fix it?
 Of course if you're looking on the bright side - you might say:
 Always adding converters with an field index
 are left as an exercise for the library user,
-that is, YOU :-). Has any told you so yet?
+that is, YOU :-). Did anyone tell you so?
 
 
 So "the right way" is (simply)
