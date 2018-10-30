@@ -135,7 +135,7 @@ Let's say you have a string value "Hello".
 
 Now imagine a datafile with a hundred thousands records
 and seventy fields. How many crashes
-with exceptions and backtraces to you get for free?
+with exceptions and backtraces do you get for free "under the hood"?
 
 Charles Oliver Natter (of JRuby Fame) writes:
 
