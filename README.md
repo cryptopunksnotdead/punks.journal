@@ -8,9 +8,10 @@ You're a genius. You're beautiful. [We stand on your shoulders. You're a giant.�
 Please, please, please - these articles are NOT about you.
 It's about the code and how to fix it.
 
-¹: stand on someone's shoulders - to make discoveries, insights, or progress due to the discoveries or previous work of those who have come before.
+>  I'm seeing from you is that we should not consider people's feelings when criticizing their work. [...]
+>  Please take time to sit down [..] and offer an apology to the author of the CSV library.
 
-- [Introduction - I Apologize - Sorry, Sorry, Sorry - Why the standard CSV library author deserves our hugs and thank yous and why new giants are wanted »](sorry-sorry-sorry.md)
+[Introduction - I Apologize - Sorry, Sorry, Sorry - Why the standard CSV library author deserves our hugs and thank yous and why new giants are wanted »](sorry-sorry-sorry.md)
 
 > "Criticism is something we can avoid easily by saying nothing, doing nothing, and being nothing."
 >
@@ -30,3 +31,7 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 > "He has a right to criticize, who has a heart to help."
 >
 > -- Abraham Lincoln
+
+
+---
+¹: stand on someone's shoulders - to make discoveries, insights, or progress due to the discoveries or previous work of those who have come before.
