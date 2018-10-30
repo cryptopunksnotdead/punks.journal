@@ -42,6 +42,8 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 - [**Part IV or Numerics a.k.a. Auto-Magic Type Inference for Strings and Numbers**](csv-numerics.md)
 - [**Part V or Escaping the Stray Quote Error Hell - Do You Want Single, Double, or French Quotes With That Comma?**](csv-quotes.md)
 - [**Part VI or Fixes in Alternative CSV Libraries or Evolve or Die or Fast, Faster, Fasterer, Fastest**](csv-libraries.md)
+- [**Part VII or What's Your Type? Guess. Again. And Again. And Again**](csv-types.md)
+
 
 
 <!--
