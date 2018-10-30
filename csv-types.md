@@ -1,4 +1,4 @@
-# Why the CSV standard library is broken (and how to fix it), Part VII or What's Your Type? Guess. Again. And Again. And Again.
+# Why the CSV standard library is broken (and how to fix it), Part VII or What's Your Type? Guess. Again. And Again. And Again. Guess What's a Schema For?
 
 What's broken (and wrong, wrong, wrong) with the CSV standard library? Let's count the ways.
 
