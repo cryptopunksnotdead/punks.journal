@@ -54,7 +54,7 @@ data = SmarterCSV.process( filename )
 # => [{:category=>"Red", :first_name=>"John", :age=>"34"}]
 ```
 
-You will notice that the sample CSV file had a couple of extra spaces, which were stripped off, and the fields from the header line were converted into Ruby symbols.  
+You will notice that the sample CSV file had a couple of extra spaces, which were stripped off, and the fields from the header line were converted into Ruby symbols.
 Notice how the double-space in " FIRST  NAME" becomes an underscore in :first_name.
 
 All this is default behavior, assuming that you want to hand this data to an ORM, but these defaults can be overwritten.
