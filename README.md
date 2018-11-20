@@ -61,3 +61,11 @@ _What's broken (and wrong, wrong, wrong) in the CSV standard library? Let's coun
 
 
 -->
+
+
+
+
+## Migrate / Upgrade from ___  - Side-by-Side Examples
+
+- [Migrate / Upgrade from Smarter CSV to CSV Reader - Side-by-Side Examples](smarter-csv.md)
+
