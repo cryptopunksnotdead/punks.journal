@@ -1,6 +1,7 @@
 # Migrate / Upgrade from Smarter CSV to CSV Reader - Side-by-Side Examples
 
 
+
 ## What's Smarter CSV?
 
 SmarterCSV is a ruby library for (smarter) reading CSV datafile. SmarterCSV "pioneered" returning "ye plain olde" arrays of hashes
@@ -23,10 +24,16 @@ See the ongoing [Why the CSV standard library is broken (and how to fix it)](htt
 article series for an inside look into the unfixable `String#split` parser kludge and much more.  
 
 
-Anyways, let's copy-n-paste the [Getting Started w/ Smarter CSV -The Basics](Getting Started)) 
+Anyways, let's copy-n-paste the [Getting Started w/ Smarter CSV - The Basics](https://github.com/tilo/smarter_csv/wiki/The-Basics) 
 document right here 
 and let's add the CSV Reader alternative.
 Here we go:
+
+- [Vanilla CSV Files]()
+- [Another Vanilla CSV File]()
+- [But my CSV Files are not Comma-Separated]()
+- [But I don't want Symbols as Keys]()
+- [But I want the RAW headers!]()
 
 
 
@@ -55,7 +62,7 @@ All this is default behavior, assuming that you want to hand this data to an ORM
 
 ---
 
-**CSV Reader.**
+**Migrate / Upgrade to CSV Reader.**
 
 ``` ruby
 options = { :header_converter => :symbol }
@@ -109,7 +116,7 @@ In this case, there was no data in line 3 - all the values were empty.
 
 ---
 
-**CSV Reader.**
+**Migrate / Upgrade to CSV Reader.**
 
 ``` ruby
 options = { :header_converter => :symbol,
@@ -148,7 +155,7 @@ Notice how the double-dash becomes an underscore in `:first_name`.
 
 ---
 
-**CSV Reader.**
+**Migrate / Upgrade to CSV Reader.**
 
 ``` ruby
 CsvHash.config.header_converter = :symbol 
@@ -157,7 +164,7 @@ data = CsvHash.read( '/tmp/test.csv', sep: ';' )
 #=> [{:category=>"Red", :first_name=>"John", :age=>"35"}]
 ```
 
-Note:  Use `CsvHash.config` for changing "global" default reader settings.
+Note:  You can use `CsvHash.config` for changing "global" default reader settings.
 
 ---
 
@@ -180,7 +187,7 @@ The keyword `:none` disables any defaults for `header_transformations`, before w
 
 ---
 
-**CSV Reader.**
+**Migrate / Upgrade to CSV Reader.**
 
 ``` ruby
 data = CsvHash.read( '/tmp/test.csv' )
@@ -216,7 +223,7 @@ Congrats! Now you have to strip those spaces yourself 😛 🎉
 
 ---
 
-**CSV Reader.**
+**Migrate / Upgrade to CSV Reader.**
 
 ``` ruby
 data = CsvHash.read( '/tmp/test.csv', :header_converter => :none )
