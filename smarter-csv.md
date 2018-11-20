@@ -72,7 +72,7 @@ data = CsvHash.read( filename, options )
 
 # -or-
 
-CsvHash.config.header_converter = :symbol    # change "global" default settings
+CsvHash.config.header_converter = :symbol    # change "global" default reader settings
 
 data = CsvHash.read( filename )
 #=> [{:category=>"Red", :first_name=>"John", :age=>"34"}]
@@ -137,7 +137,7 @@ pets_by_owner = CsvHash.read( '/tmp/pets.csv', options )
 
 # -or-
 
-pets_by_owner = CsvHash.read( '/tmp/pets.csv' )   # with "global" settings changed (see above)
+pets_by_owner = CsvHash.read( '/tmp/pets.csv' )   # with "global" default reader settings changed (see above)
 #=> [{:first_name=>"Dan", :last_name=>"McAllister", :dogs=>"2"}, 
 #    {:first_name=>"Lucy", :last_name=>"Laweless", :cats=>"5"}, 
 #    {:first_name=>"Miles", :last_name=>"O'Brian", :fish=>"21"}, 
@@ -179,7 +179,7 @@ data = CsvHash.read( '/tmp/test.csv', sep: ';' )
 #=> [{:category=>"Red", :first_name=>"John", :age=>"35"}]
 ```
 
-Note:  You can use `CsvHash.config` for changing "global" default reader settings.
+Note:  You can use `CsvHash.config` for changing the "global" default reader settings.
 
 ---
 
