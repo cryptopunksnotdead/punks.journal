@@ -195,7 +195,7 @@ data = CsvHash.read( '/tmp/test.csv' )
 ```
 
 Note: The CSV Reader uses string keys as default.
-Use the `:downcase` keyword option for `header_converter` to explicitly change the setting.
+Use the `:downcase` header converter keyword option to explicitly change the setting.
 
 ---
 
@@ -229,7 +229,7 @@ data = CsvHash.read( '/tmp/test.csv', :header_converter => :none )
 #=> [{"CATEGORY "=>"Red", " FIRST  NAME"=>"John", " AGE "=>"35"}]
 ```
 
-Note: Use the `:none` option for the `header_converter` keyword setting.
+Note: Use the `:none` header converter keyword option for getting the "RAW" headers.
 
 ---
 
