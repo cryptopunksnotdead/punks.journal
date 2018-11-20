@@ -18,7 +18,7 @@ for records (instead of using custom `CSV::Table`, `CSV::Row`, etc.).
 >
 > (Source: [SmarterCSV README](https://github.com/tilo/smarter_csv))
 
-However, under the hood the SmarterCSV is NOT so smart. Why? Surprise, surprise - yes, it's using the CSV Standard library 
+However, under the hood the SmarterCSV is NOT so smart. Why? Surprise, surprise - yes, it's using the CSV standard library 
 for the "heavy-duty" parsing. Bad. Bad. Bad. 
 See the ongoing [Why the CSV standard library is broken (and how to fix it)](https://github.com/csvreader/docs)
 article series for an inside look into the unfixable `String#split` parser kludge and much more.  
@@ -72,8 +72,7 @@ data = CsvHash.read( filename, options )
 ```
 
 Note: In the CSV Reader library use `CsvHash` to get an array of hashes returned. 
-Use the `:symbol` header converter keyword option to turn the string headers into symbols.
-
+Use the `:symbol` header converter keyword option to turn headers into symbols.
 
 ---
 
