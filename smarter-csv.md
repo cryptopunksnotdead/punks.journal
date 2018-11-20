@@ -29,11 +29,11 @@ document right here
 and let's add the CSV Reader alternative.
 Here we go:
 
-- [Vanilla CSV Files]()
-- [Another Vanilla CSV File]()
-- [But my CSV Files are not Comma-Separated]()
-- [But I don't want Symbols as Keys]()
-- [But I want the RAW headers!]()
+- [Vanilla CSV Files](#vanilla-csv-files)
+- [Another Vanilla CSV File](#another-vanilla-csv-file)
+- [But my CSV Files are not Comma-Separated](#but-my-csv-files-are-not-comma-separated)
+- [But I don't want Symbols as Keys](#but-i-dont-want-symbols-as-keys)
+- [But I want the RAW headers!](#but-i-want-the-raw-headers)
 
 
 
@@ -51,7 +51,7 @@ Reading and processing the CSV file is straight-forward, and you get an array of
 
 ``` ruby
 data = SmarterCSV.process( filename )
-# => [{:category=>"Red", :first_name=>"John", :age=>"34"}]
+#=> [{:category=>"Red", :first_name=>"John", :age=>"34"}]
 ```
 
 You will notice that the sample CSV file had a couple of extra spaces, which were stripped off, and the fields from the header line were converted into Ruby symbols.
@@ -68,11 +68,19 @@ All this is default behavior, assuming that you want to hand this data to an ORM
 options = { :header_converter => :symbol }
 
 data = CsvHash.read( filename, options )
-# => [{:category=>"Red", :first_name=>"John", :age=>"34"}]
+#=> [{:category=>"Red", :first_name=>"John", :age=>"34"}]
+
+# -or-
+
+CsvHash.config.header_converter = :symbol    # change "global" setting
+
+data = CsvHash.read( filename )
+#=> [{:category=>"Red", :first_name=>"John", :age=>"34"}]
 ```
 
 Note: In the CSV Reader library use `CsvHash` to get an array of hashes returned. 
 Use the `:symbol` header converter keyword option to turn headers into symbols.
+Or you can use `CsvHash.config` for changing "global" default reader settings.
 
 ---
 
@@ -122,6 +130,14 @@ options = { :header_converter => :symbol,
             :remove_blanks    => true }
 
 pets_by_owner = CsvHash.read( '/tmp/pets.csv', options )
+#=> [{:first_name=>"Dan", :last_name=>"McAllister", :dogs=>"2"}, 
+#    {:first_name=>"Lucy", :last_name=>"Laweless", :cats=>"5"}, 
+#    {:first_name=>"Miles", :last_name=>"O'Brian", :fish=>"21"}, 
+#    {:first_name=>"Nancy", :last_name=>"Homes", :dogs=>"2", :birds=>"1"}]
+
+# -or-
+
+pets_by_owner = CsvHash.read( '/tmp/pets.csv' )   # with "global" settings changed (see above)
 #=> [{:first_name=>"Dan", :last_name=>"McAllister", :dogs=>"2"}, 
 #    {:first_name=>"Lucy", :last_name=>"Laweless", :cats=>"5"}, 
 #    {:first_name=>"Miles", :last_name=>"O'Brian", :fish=>"21"}, 
