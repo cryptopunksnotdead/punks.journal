@@ -72,7 +72,7 @@ data = CsvHash.read( filename, options )
 
 # -or-
 
-CsvHash.config.header_converter = :symbol    # change "global" setting
+CsvHash.config.header_converter = :symbol    # change "global" default settings
 
 data = CsvHash.read( filename )
 #=> [{:category=>"Red", :first_name=>"John", :age=>"34"}]
@@ -80,7 +80,7 @@ data = CsvHash.read( filename )
 
 Note: In the CSV Reader library use `CsvHash` to get an array of hashes returned. 
 Use the `:symbol` header converter keyword option to turn headers into symbols.
-Or you can use `CsvHash.config` for changing "global" default reader settings.
+Or you can use `CsvHash.config` for changing the "global" default reader settings.
 
 ---
 
