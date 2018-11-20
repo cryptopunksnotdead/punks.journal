@@ -216,7 +216,7 @@ data = SmarterCSV.process('/tmp/test.csv', {header_transformations: [:none]})
 #=> [{"CATEGORY "=>"Red", " FIRST  NAME"=>"John", " AGE "=>"35"}]
 ```
 
-Congrats! Now you have to strip those spaces yourself 😛 🎉 
+Congrats! Now you have to strip those spaces yourself.
 
 
 
