@@ -18,6 +18,7 @@ by Gerald Bauer (Crypto Punk's Not Dead)
 
 ## August 2021
 
+[**Punks - The Free White Label Quick Starter Edition - (Re)create from zero / scratch a pixel-perfect copy of the 10 000 CryptoPunks collection (Anno 2017)**](https://github.com/cryptopunksnotdead/punks.whitelabel) by Gerald Bauer (Crypto Punk's Not Dead)
 
 [**Inside the CryptoPunksData contract - Decoding the on-chain assets (11 archetypes and 122 attributes) and color palette for easy (re)use "off-chain"**](https://github.com/cryptopunksnotdead/cryptopunks/tree/master/punksdata) by Gerald Bauer (Crypto Punk's Not Dead)
 
