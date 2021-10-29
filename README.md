@@ -29,8 +29,11 @@ by Matt Hall and John Watkinson (LarvaLabs)
 
 ## April 2021
 
-[**The Cult of CryptoPunks - Ethereum's 'oldest non-fungible token project' may not actually be the first, but it's the wildest**](https://techcrunch.com/2021/04/08/the-cult-of-cryptopunks/)
+[**The Cult of CryptoPunks - Ethereum's 'oldest [non-fungible] token project' may not actually be the first, but it's the wildest**](https://techcrunch.com/2021/04/08/the-cult-of-cryptopunks/)
 by Lucas Matney (TechCrunch)
+
+[**Christie's Art Auction House - 10 things to know about CryptoPunks, the original [non-fungible] tokens**](https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx)
+by Christie's - _For the first time, 5,184 pixels' worth of a revolutionary [non-fungible] token project will go up for auction at a traditional auction house, courtesy of the project creators and pioneers themselves_
 
 
 
