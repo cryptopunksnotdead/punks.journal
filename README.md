@@ -26,6 +26,11 @@ by Gerald Bauer (Crypto Punk's Not Dead)
 by Matt Hall and John Watkinson (LarvaLabs)
 
 
+## July 2021
+
+[**Creating a 10 000 [non-fungible] token avatar collection - step-by-step**](https://medium.com/geekculture/expansionpunks-welcome-to-the-more-inclusive-punkverse-aa77e675bcf5) 
+by Jeremy Posvar (ExpansionPunks)
+
 
 ## April 2021
 
@@ -34,6 +39,12 @@ by Lucas Matney (TechCrunch)
 
 [**Christie's Art Auction House - 10 things to know about CryptoPunks, the original [non-fungible] tokens**](https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx)
 by Christie's - _For the first time, 5,184 pixels' worth of a revolutionary [non-fungible] token project will go up for auction at a traditional auction house, courtesy of the project creators and pioneers themselves_
+
+
+## June 2017
+
+[**This ethereum-based project could change how we think about digital art Yes, you can actually own these digital creations.**](https://mashable.com/article/cryptopunks-ethereum-art-collectibles)
+by Jason Abbruzzese (Mashable)
 
 
 
