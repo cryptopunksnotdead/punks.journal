@@ -43,7 +43,7 @@ by Christie's - _For the first time, 5,184 pixels' worth of a revolutionary [non
 
 ## June 2017
 
-[**This ethereum-based project could change how we think about digital art Yes, you can actually own these digital creations.**](https://mashable.com/article/cryptopunks-ethereum-art-collectibles)
+[**This ethereum-based project could change how we think about digital art. Yes, you can actually own these digital creations.**](https://mashable.com/article/cryptopunks-ethereum-art-collectibles)
 by Jason Abbruzzese (Mashable)
 
 
