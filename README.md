@@ -6,7 +6,7 @@ _Best of ("Hall of Fame" of) Punk Writing_
 
 ## November 2021
 
-[**The 10,000 Faces That Launched an Non-Fungible [Art] Token Revolution**](https://wired.com/story/the-10000-faces-that-launched-an-nft-revolution/) by Sandra Upson (Wired)
+[**The 10,000 [Pixel Punk] Faces That Launched an Non-Fungible [Art] Token Revolution**](https://wired.com/story/the-10000-faces-that-launched-an-nft-revolution/) by Sandra Upson (Wired)
 
 
 ## Oktober 2021
