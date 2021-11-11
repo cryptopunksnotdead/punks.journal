@@ -3,6 +3,12 @@
 _Best of ("Hall of Fame" of) Punk Writing_
 
 
+
+## November 2021
+
+[**The 10,000 Faces That Launched an Non-Fungible [Art] Token Revolution by Sandra Upson**](https://wired.com/story/the-10000-faces-that-launched-an-nft-revolution/) by Sandra Upson (Wired)
+
+
 ## Oktober 2021
 
 [**What I learned from building an on-chain ecosystem for CryptoPunks**](https://lostpunks.medium.com/what-i-learned-from-building-an-on-chain-ecosystem-for-cryptopunks-7bdd6e2dd064)
