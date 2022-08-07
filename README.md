@@ -5,7 +5,7 @@ _Best of ("Hall of Fame" of) Punk Writing_
 
 ## June 2022
 
-[**The early history of [Non-Fungible] Tokens, part 4: [24×24px] Game Sprites on the Blockchain: [Matt & John's®] Punks [V1 V2]**](https://davidgerard.co.uk/blockchain/2022/06/16/the-early-history-of-nfts-part-4-game-sprites-on-the-blockchain-cryptopunks/) by Amy Castor and David Gerard  (Free Draft Book Chapter) -
+[**The early history of [Non-Fungible] Tokens, part 4: [24×24px] Game Sprites on the Blockchain: [Matt & John's®] Punks [V1/V2]**](https://davidgerard.co.uk/blockchain/2022/06/16/the-early-history-of-nfts-part-4-game-sprites-on-the-blockchain-cryptopunks/) by Amy Castor and David Gerard  (Free Book Chapter Early Access Draft) -
 Bonus: [Article Review / Commentary](https://old.reddit.com/r/CryptoPunksDev/comments/veaj59/book_history_corner_free_draft_of_the_prehistory/)
 
 
