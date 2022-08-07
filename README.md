@@ -5,7 +5,7 @@ _Best of ("Hall of Fame" of) Punk Writing_
 
 ## February 2022
 
-[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](are-cryptopunks-copyrightable.png), by Brian L. Frye, 
+[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](are-cryptopunks-copyrightable.pdf), by Brian L. Frye, 
 University of Kentucky - College of Law, 21-pages  (via [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4029323))
 
 
