@@ -12,6 +12,10 @@ Bonus: [Article Review / Commentary](https://old.reddit.com/r/CryptoPunksDev/com
 
 ## May 2022
 
+[**Digital artists' post-bubble hopes for [non-fungible] tokens don't need a blockchain**](https://blog.mollywhite.net/digital-artists-post-bubble-hopes-for-nfts-dont-need-a-blockchain/) by Molly White - 
+Bonus: [Article Review / Commentary](https://old.reddit.com/r/CryptoPunksDev/comments/uo1rrs/selling_digital_art_ownership_certified_without/)
+
+
 [**Marilyn and Punks and Art, Oh My!**](https://blog.seanbonner.com/2022/05/21/marilyn-and-punks-and-art-oh-my/) by Sean Bonner (Photographer) - Bonus: [Article Review / Commentary](https://old.reddit.com/r/CryptoPunksDev/comments/v3exbi/hi_im_sean_bonner_a_crypto_bro_pumping_shilling/)
 
 
