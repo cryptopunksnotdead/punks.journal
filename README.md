@@ -3,10 +3,17 @@
 _Best of ("Hall of Fame" of) Punk Writing_
 
 
+## May 2022
+
+Bored Apes & Monkey Selfies: Copyright & Profile Picture [Non-Fungible] Tokens (PDF Download ~3.1MB), 
+by Alfred 'Dave' Steiner (Meister & Steiner), 14-pages (via [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4116638))
+
+
+
 ## February 2022
 
-[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](are-cryptopunks-copyrightable.pdf), by Brian L. Frye, 
-University of Kentucky - College of Law, 21-pages  (via [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4029323))
+[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](are-cryptopunks-copyrightable.pdf), by Brian L. Frye ( 
+University of Kentucky - College of Law), 21-pages  (via [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4029323))
 
 
 
