@@ -34,7 +34,7 @@ by Alfred 'Dave' Steiner (Meister & Steiner), 14-pages (via [SSRN](https://paper
 
 ## February 2022
 
-[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](are-cryptopunks-copyrightable.pdf), by Brian L. Frye ( 
+[**Are Cryptopunks Copyrightable? (PDF Download ~7.5MB)**](https://github.com/cryptopunksnotdead/punks.journal/raw/master/are-cryptopunks-copyrightable.pdf), by Brian L. Frye ( 
 University of Kentucky - College of Law), 21-pages  (via [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4029323))
 
 
