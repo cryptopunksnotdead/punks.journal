@@ -88,6 +88,13 @@ by Christie's - _For the first time, 5,184 pixels' worth of a revolutionary [non
 by Jason Abbruzzese (Mashable)
 
 
+## January 2012
+
+
+[**Who Owns an Avatar?: Copyright, Creativity, and Virtual Worlds (PDF Download ~1.7MB)**](who-owns-an-avatar.pdf),
+by Tyler T. Ochoa (Santa Clara University School of Law), 35-pages (via [Santa Clara Law Digital Commons](https://digitalcommons.law.scu.edu/facpubs/801/)) 
+
+
 
 ## Questions? Comments?
 
