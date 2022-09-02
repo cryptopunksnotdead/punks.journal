@@ -91,7 +91,7 @@ by Jason Abbruzzese (Mashable)
 ## January 2012
 
 
-[**Who Owns an Avatar?: Copyright, Creativity, and Virtual Worlds (PDF Download ~1.7MB)**](who-owns-an-avatar.pdf),
+[**Who Owns an Avatar?: Copyright, Creativity, and Virtual Worlds (PDF Download ~1.7MB)**](https://github.com/cryptopunksnotdead/punks.journal/raw/master/who-owns-an-avatar.pdf),
 by Tyler T. Ochoa (Santa Clara University School of Law), 35-pages (via [Santa Clara Law Digital Commons](https://digitalcommons.law.scu.edu/facpubs/801/)) 
 
 
